@@ -30,7 +30,6 @@ Exploratory Data Analysis (EDA)
 We start by loading the dataset and exploring the basic statistics.
 
 python
-Copy code
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -45,7 +44,6 @@ print(USA_housing.describe())
 Next, we visualize relationships between variables using pair plots and correlation heatmaps:
 
 python
-Copy code
 # Pairplot
 sns.pairplot(USA_housing)
 plt.show()
@@ -61,7 +59,6 @@ Model Training
 For model training, we split the data into training and testing sets and apply a linear regression model.
 
 python
-Copy code
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
@@ -91,7 +88,6 @@ Model Evaluation
 We evaluate the model's performance using metrics like MAE, MSE, RMSE, and R².
 
 python
-Copy code
 from sklearn import metrics
 import numpy as np
 
