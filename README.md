@@ -2,14 +2,6 @@
 
 This project involves creating and training a linear regression model using a dataset of US housing data. The model will predict housing prices based on various features such as average income, house age, number of rooms, bedrooms, and population in the area.
 
-## Table of Contents
-1. [Installation](#installation)
-2. [Data Overview](#data-overview)
-3. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-4. [Model Training](#model-training)
-5. [Model Evaluation](#model-evaluation)
-6. [Conclusion](#conclusion)
-
 ## Installation
 
 To run this project, you need to have the following libraries installed:
